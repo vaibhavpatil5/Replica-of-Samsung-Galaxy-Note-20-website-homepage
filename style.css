@@ -1,0 +1,336 @@
+    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+        background: #000;
+        overflow-x: hidden;
+        margin: auto;
+    }
+
+    .nav1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px;
+        padding-top:40px;
+        padding-bottom: 40px; 
+        background:#fff;
+        height: 60px;
+        position: relative;
+    }
+
+    .logo{
+        height: 40px;
+        cursor: pointer;
+        padding: 0 24px 0 16px;
+    }
+
+    i{
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .babyNav1 li a,
+    .babyNav2 li a,
+    .babyNav3 li a{
+       
+        font-weight: 800;
+        font-size: 13px;
+        color: #000;
+        text-decoration: none;
+    }
+
+     .babyNav1,
+     .babyNav2, 
+     .babyNav3, 
+     .baby1Nav2,
+     .baby1Nav3{
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .babyNav1{
+        padding-right: 170px;
+    }
+
+
+
+    .babyNav1 li, 
+    .babyNav2 li, 
+    .babyNav3 li, 
+    .baby1Nav2 li, 
+    .baby1Nav3 li{
+        display: inline-block;
+        
+    }
+
+    .babyNav1 li :hover,
+    .babyNav2 li :hover,
+    .baby1Nav2 li :hover
+    {
+        border-radius: 25px;
+        background: #000;
+        color: #fff;
+        padding: 5px;
+    }
+
+    .nav2{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 8px ;
+        background: #000;
+        height: 50px;
+        color: #fff;
+        border-bottom: 1px solid grey;  
+        position: sticky;
+        top: 0; 
+    }
+
+   strong{
+        font-size: 18px;
+        font-weight: 900;
+        padding-left: 18px;
+    }
+
+
+    .nav2 p{
+        margin-right:auto;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 20 px;
+    }
+
+    .baby1Nav2 li, a{
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .baby1Nav2{
+        text-transform: uppercase;
+        margin: 7px;
+        padding-right: 35px;
+    }
+
+    .btn{
+        height: 150%;
+        background:linear-gradient(to bottom,#e2cac5 0,#dbb3a9 100%);
+        width: 178px;
+        border: none;
+        margin-right: -8px;
+        margin-bottom: -8px;
+        cursor: pointer;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+
+    .nav3{
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+         position: sticky;
+         top:12px;
+        background: #000;
+        color:#fff;
+        border-bottom: 0.3px solid grey;
+    }
+
+    .baby1Nav3 li a{
+        
+        font-weight: 900;
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+
+    }
+
+    .baby1Nav3{
+        margin-right: 50px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .head{
+        color:#fff;
+        font-size: 43px;
+        margin-bottom: 40px;
+    }
+
+    .buy_now{
+        height: 50px;
+        width: 150px;
+        border-radius: 6px;
+        color:#fff;
+        border: 1px solid #fff;
+        background-color: #000;
+        cursor: pointer;
+    }
+
+    .buy_now:hover{
+        background-color: #fff;
+        color: black;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .con_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#fff;
+        margin-top: 300px;
+    }
+
+    .con1{
+            display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    align-content: center;
+  
+    flex-direction: column;
+    }
+
+    .con1 p{
+        width: 55%;
+        font-size: 19px;
+        text-align: center;
+        word-spacing: 4px;
+        box-sizing: border-box;
+    }
+
+    .con1 h1{
+        font-size: 61px;
+        text-align: center;
+        margin-top: 100px;
+        margin-right: 25px;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(var(--items), 1fr);
+        position: relative;
+        font-weight: 300;
+        align-items: center;
+        height: 35px;
+    }
+
+
+    .links a {
+        padding: 3px;
+        margin: 5px
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s;
+        justify-self: center;
+        font-size: 11px;
+    }
+
+    .links a:hover {
+        color: #fff;
+    }
+
+    .links .line {
+        background-color: #fff;
+        height: 2px;
+        pointer-events: none;
+        transition: all 0.6s ease-out;
+        position: absolute;
+        bottom: 0;
+        left: var(--left, calc(100%/var(--items) * (var(--index) - 1)));
+        width: var(--width, calc(100% / var(--items)));
+        --index: 1;
+    }
+
+    .links a:hover~.line {
+        opacity: 1;
+    }
+
+    .links a:nth-of-type(1):hover~.line {
+        --index: 1;
+    }
+
+    .links a:nth-of-type(2):hover~.line {
+        --index: 2;
+    }
+
+    .links a:nth-of-type(3):hover~.line {
+        --index: 3;
+    }
+
+    .links a:nth-of-type(4):hover~.line {
+        --index: 4;
+    }
+
+    .links a:nth-of-type(5):hover~.line {
+        --index: 5;
+    }
+    .links a:nth-of-type(6):hover~.line {
+        --index: 6;
+    }
+    .links a:nth-of-type(7):hover~.line {
+        --index: 7;
+    }
+
+    .links a:nth-of-type(8):hover~.line {
+        --index: 8;
+    }
+    .links a:nth-of-type(9):hover~.line {
+        --index: 9;
+    }
+
+
+
+    @media(max-width: 768px){
+    .babyNav1,.babyNav2,.baby1Nav2 {
+        display: none;
+    }
+    .nav2 p{
+        font-size: 12px;
+    }
+
+    .head{
+    font-size: 35px;
+    }
+
+    .con1 p{
+    width: 80%;
+    font-size: 13px;
+    word-spacing: 1px;
+    }
+
+    .con1 h1 {
+    font-size: 31px;
+    margin-top: 40px;
+    margin-right: 15px;
+    }
